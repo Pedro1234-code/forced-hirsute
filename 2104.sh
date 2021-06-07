@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo Starting Ubuntu 21.04 Forced Upgrade
 
 cd ~/
