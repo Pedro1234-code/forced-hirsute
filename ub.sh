@@ -2,15 +2,11 @@
 
 echo Starting Ubuntu 21.04 Forced Upgrade
 
-cd ~/
-
-mkdir 21.04
-
-cd 21.04
+UBUNTU=ubuntu-base-21.04-base-amd64.tar.gz
 
 wget http://cdimage.ubuntu.com/ubuntu-base/releases/hirsute/release/ubuntu-base-21.04-base-amd64.tar.gz
 
-tar -xzf ubuntu-base-21.04-base-amd64.tar.gz
+tar -xzf $UBUNTU
 
 cd etc
 
@@ -42,4 +38,4 @@ apt upgrade
 
 echo Ubuntu 21.04 Installed! Reboot your system to complete the upgrade.
 
-echo Credits for Pedro1234-code (https://github.com/Pedro1234-code)
+echo Credits: Pedro1234-code (https://github.com/Pedro1234-code)
