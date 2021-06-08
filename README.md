@@ -7,7 +7,7 @@ Install Ubuntu 21.04 without formatting your computer and losing data because of
 
 How it works:
 
-It downloads a minimal Ubuntu rootfs 21.04 and swaps the sources.list (backing up) and .gpg keys within the /etc/apt/trusted.gpg.d/folder.
+It downloads a minimal Ubuntu 21.04 rootfs and swaps the sources.list (backing up) and .gpg keys within the /etc/apt/trusted.gpg.d/folder.
 
 Then it only updates the system with sudo apt upgrade -y.
 
