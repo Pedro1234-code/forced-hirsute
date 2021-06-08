@@ -15,7 +15,7 @@ Instructions:
 
 Clone this repository or download the script from github itself. 
 
-Then run it as root using the command: sudo bash 2104.sh.
+Then run it as root using the command: sudo bash ub.sh.
 
 Now just wait for him to install.
 
