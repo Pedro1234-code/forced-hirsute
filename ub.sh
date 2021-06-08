@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo Starting Ubuntu 21.04 forced upgrade
+
 cd ~/
 
 sudo mkdir hirsute
@@ -35,3 +37,11 @@ sudo apt update
 sudo apt update
 
 sudo apt upgrade -y
+
+sudo rm -rf /var/lib/dpkg/info/postfix.postinst
+
+sudo apt upgrade -y
+
+echo Finished. Rebooting the system.
+
+sudo reboot -f
