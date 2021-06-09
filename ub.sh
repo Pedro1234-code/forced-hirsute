@@ -8,7 +8,7 @@ sudo mkdir hirsute
 
 sudo apt update
 
-sudo apt install wget git -y
+sudo apt install wget git apt-utils -y
 
 cd hirsute
 
