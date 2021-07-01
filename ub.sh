@@ -2,7 +2,7 @@
 
 echo Starting Ubuntu 21.04 forced upgrade
 
-cd ~/
+cd /tmp
 
 sudo mkdir hirsute
 
