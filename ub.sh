@@ -46,6 +46,8 @@ sudo rm -rf /var/lib/dpkg/info/postfix.postinst
 
 sudo apt upgrade -y
 
+sudo update-manager -d
+
 echo Finished. Rebooting the system.
 
 sudo reboot -f
