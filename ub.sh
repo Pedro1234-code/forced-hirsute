@@ -40,13 +40,15 @@ sudo apt update
 
 sudo apt update
 
-sudo apt upgrade -y
+# sudo apt upgrade -y
 
 sudo rm -rf /var/lib/dpkg/info/postfix.postinst
 
+sudo update-manager -d
+
 sudo apt upgrade -y
 
-sudo update-manager -d
+# sudo update-manager -d
 
 echo Finished. Rebooting the system.
 
